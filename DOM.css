@@ -1,0 +1,35 @@
+
+
+
+.shopping-cart {  
+    font-family: Arial, sans-serif;  
+    width: 300px;  
+    margin: auto;  
+}  
+
+.cart-items {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+.cart-item {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    margin-bottom: 10px;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+}  
+
+.item-info {  
+    flex-grow: 1;  
+}  
+
+.button {  
+    margin: 0 5px;  
+}  
+
+.cart-total {  
+    font-weight: bold;  
+    margin-top: 10px;  
+}  
